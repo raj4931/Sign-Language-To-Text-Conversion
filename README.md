@@ -1,7 +1,6 @@
 # Sign Language to Text Conversion
 
-![Output Video](images/outputVideo_gif.gif)
-[YouTube](https://www.youtube.com/watch?v=Rd04XB6F0pU)
+
 ## Abstract
 
 Sign language is one of the oldest and most natural form of language for communication, but since most people do not know sign language and interpreters are very difficult to come by we have come up with a real time method using neural networks for fingerspelling based american sign language.
@@ -73,7 +72,7 @@ I captured each frame shown by the webcam of our machine.
 
 In each frame I defined a region of interest (ROI) which is denoted by a blue bounded square as shown in the image below.
 
-![Training Data Collection Image](images/trainingdata.png)
+![Training Data Collection Image](images/trainingdataraj.png)
 
 After capturing the image from the ROI, I applied gaussian blur filter to the image which helps for extracting various features of the image. 
 
@@ -182,7 +181,7 @@ So, to handle above cases I made three different classifiers for classifying the
 
 The GUI(Graphical User Interface) of the application is as shown below :
 
-![GUI](images/gui.png)
+![GUI](images/Z.png)
 
 Flow Chart for Gesture Classification is as following :
 
@@ -237,7 +236,7 @@ python /path/to/the/Application.py
 ```
 # License
 
-Copyright (c) 2021 Nikhil Gupta
+Copyright (c) 2023 Raj Babu Singh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
